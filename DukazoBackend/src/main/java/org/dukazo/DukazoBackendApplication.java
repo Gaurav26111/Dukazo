@@ -1,13 +1,14 @@
-package ShopDeals.ShopDeals;
+package org.dukazo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ShopDealsApplication {
+public class DukazoBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ShopDealsApplication.class, args);
+		SpringApplication.run(DukazoBackendApplication.class, args);
+
 	}
 
 }
